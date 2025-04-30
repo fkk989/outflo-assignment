@@ -11,15 +11,20 @@ const Navbar: React.FC = () => {
 
   const navItems = [
     {
-      name: 'Campaigns',
-      path: '/',
-      icon: <LayoutDashboard className="w-5 h-5" />
+      name: "Campaigns",
+      path: "/",
+      icon: <LayoutDashboard className="w-5 h-5" />,
     },
     {
-      name: 'Message Generator',
-      path: '/message-generator',
-      icon: <MessageSquare className="w-5 h-5" />
-    }
+      name: "Message Generator",
+      path: "/message-generator",
+      icon: <MessageSquare className="w-5 h-5" />,
+    },
+    {
+      name: "Scraped Data",
+      path: "/scraped-data",
+      icon: <></>,
+    },
   ];
 
   return (

@@ -16,3 +16,12 @@ export interface LinkedInProfile {
   summary: string;
 }
 
+export interface Profile {
+  _id: string;
+  name: string;
+  jobTitle: string;
+  company: string;
+  location: string;
+  profileUrl: string;
+  profileImageUrl: string;
+}

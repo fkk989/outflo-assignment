@@ -1,0 +1,1 @@
+{"root":["./process.env.d.ts","./src/index.ts","./src/config/db/index.ts","./src/model/profile.ts"],"version":"5.8.3"}
